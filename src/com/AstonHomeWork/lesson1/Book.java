@@ -22,8 +22,6 @@ public class Book {
         if (isAvailable) {
             isAvailable = false;
             System.out.println("Книга: " + title + " - успешно взята.");
-        } else {
-            System.out.println("Книга: " + title + " - уже у вас на руках.");
         }
     }
 
